@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { createContext, useState } from "react";
+import {userData} from "../src/Data/UserData.js";
+import Sidebar from '../src/components/Sidebar.js';
+import Header from "./components/Header";
+import Maindisplay from "./components/Maindisplay.js";
+
+export const userContextData = createContext();
 
 function App() {
+  const [data] = useState(userData);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <userContextData.Provider value={data}>
+        <Header />
+        <div className="MainArea">
+        <Sidebar/>
+        <Maindisplay/>
+        </div>
+      </userContextData.Provider>
     </div>
   );
 }

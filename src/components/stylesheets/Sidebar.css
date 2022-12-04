@@ -1,0 +1,55 @@
+.Sidebar{
+    width: 300px;
+    background-color: rgb(27, 167, 165);
+    height: 89vh;
+}
+
+.Collapse{
+    width: 100%;
+}
+
+.UserList{
+    width: 100%;
+}
+
+.Sidebar2{
+    width: 40px;
+    height: 90vh;
+    background-color: rgb(86, 100, 141);
+}
+
+.UserCard{
+    background-color: rgb(33, 114, 114);
+    border-radius: 7px;
+    margin-left: 10px;
+    padding-left: 8%;
+    box-shadow: 1px 3px 5px rgb(42, 39, 39);
+    width: 80%;
+    color: rgb(241, 240, 243);
+}
+
+ul{
+    margin-left: -30px;
+}
+
+.UserCard:hover{
+    box-shadow: 5px 10px 18px black;
+}
+
+.Collapse, .Collapse2 {
+    background-color: rgb(23, 143, 141);
+    height: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: azure;
+    font-size: large;
+    box-shadow: 1px 3px 4px black;
+}
+
+.Collapse2{
+    background-color: blueviolet;
+}
+
+.Collapse, .Collapse2,.UserCard:hover{
+    cursor: pointer;
+}
