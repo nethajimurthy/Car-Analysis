@@ -1,0 +1,46 @@
+.Maindisplay{
+    width: 75vw;
+    background-color: rgb(103, 208, 220);
+    margin: auto;
+    height: 79vh;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgb(47, 97, 103);
+}
+
+.MainCatagories{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MainCatagories > ul{
+    color: rgb(255, 255, 255);
+    padding:1%;
+    height: 15px;
+    width: auto;
+    background-color: rgb(33, 114, 114);
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgb(15, 14, 14);
+}
+
+.MainCatagories > ul:active{
+    box-shadow: none;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(229, 224, 237);
+}
+
+.PieChart{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    box-shadow:4px 5px 5px 5px black;
+    border-radius: 8px;
+}
+
+button,.MainCatagories > ul:hover{
+    cursor: pointer;
+}
+
+

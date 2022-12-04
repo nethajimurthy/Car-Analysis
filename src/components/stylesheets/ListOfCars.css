@@ -1,0 +1,31 @@
+.CarsList{
+    height: 60vh;
+    background-color: rgb(144, 225, 198);
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.ListPage{
+    height: 54vh;
+    width: auto;
+    font-size: large;
+    background-color: rgb(125, 215, 215);
+    border-radius: 15px 15px 0 0;
+}
+
+.CarElement{
+    margin-left: 33%;
+    background-color: bisque;
+    width: 250px;
+    padding-left: 0%;
+    border-radius: 4px;
+}
+
+.PagesCount{
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
